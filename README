@@ -2,7 +2,7 @@ NAME
     Image::DCMTK - Interface to the DCMTK Dicom Toolkit
 
 VERSION
-    Version 0.05
+    Version 0.06
 
 SYNOPSIS
     Provides a set of interface functions to the Dicom Toolkit (dcmtk)
