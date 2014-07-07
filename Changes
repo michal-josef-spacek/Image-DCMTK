@@ -1,6 +1,7 @@
 0.06
  - Improve Changes file.
  - Rewrite to use Module::Install.
+ - Rewrite tests.
 
 0.05 2012-08-29
  - Add openDicomFile() subroutine.
