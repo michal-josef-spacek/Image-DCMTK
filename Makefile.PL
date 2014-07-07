@@ -17,6 +17,7 @@ requires 'Getopt::CommandLineExports' => 0;
 requires 'IO::All' => 0;
 requires 'Test::More' => 0;
 requires 'XML::Simple' => 0;
+requires 'perl' => 5.6.0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Image-DCMTK';
 resources 'homepage' => 'https://github.com/tupinek/Image-DCMTK';
