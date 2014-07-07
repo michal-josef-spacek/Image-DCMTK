@@ -18,3 +18,16 @@ t/Image-DCMTK/00-use.t
 t/Image-DCMTK/01-version.t
 t/Image-DCMTK/02-pod_coverage.t
 t/Image-DCMTK/03-pod.t
+t/Image-DCMTK/04-closeXMLItem.t
+t/Image-DCMTK/05-closeXMLSequence.t
+t/Image-DCMTK/06-makeXMLElement.t
+t/Image-DCMTK/07-modifyAnImage.t
+t/Image-DCMTK/09-openXMLItem.t
+t/Image-DCMTK/10-openXMLSequence.t
+t/Image-DCMTK/11-parseDCMDump.t
+t/Image-DCMTK/12-parseDCMDumpForSequences.t
+t/Image-DCMTK/13-parseDCMDumpForTagLists.t
+t/Image-DCMTK/14-parseDCMXMLDump.t
+t/Image-DCMTK/15-parseDCMXMLDumpForSequences.t
+t/Image-DCMTK/16-parseDCMXMLDumpForTagLists.t
+t/Image-DCMTK/17-returnTagAsXML.t
