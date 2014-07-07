@@ -1,5 +1,17 @@
-Revision history for Image-DCMTK
+0.06
+ - Improve Changes file.
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+0.05 2012-08-29
+ - Add openDicomFile() subroutine.
 
+0.04 2012-07-06
+ - Rename variables to better names.
+
+0.03 2012-07-06
+ - Rewrite to use import() subroutine.
+
+0.02 2012-07-04
+ - Improve doc.
+
+0.01 2012-07-01
+ - First version, released on an unsuspecting world.
