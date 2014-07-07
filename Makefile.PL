@@ -14,7 +14,6 @@ name 'Image-DCMTK';
 readme_from 'lib/Image/DCMTK.pm';
 requires 'Data::PrintUtils' => 0;
 requires 'Getopt::CommandLineExports' => 0;
-requires 'IO::All' => 0;
 requires 'Test::More' => 0;
 requires 'XML::Simple' => 0;
 requires 'perl' => 5.6.0;

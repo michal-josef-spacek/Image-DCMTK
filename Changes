@@ -1,4 +1,5 @@
 0.06
+ - Fix usage of IO::All::Pipe with XML::Simple::XMLin().
  - Improve Changes file.
  - Rewrite to use Module::Install.
  - Rewrite tests.

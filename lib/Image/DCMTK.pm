@@ -6,7 +6,6 @@ use warnings;
 use Data::PrintUtils qw(:ALL);
 use Getopt::CommandLineExports qw(:ALL);
 use XML::Simple;
-use IO::All;
 
 
 =head1 NAME
@@ -6182,8 +6181,9 @@ sub openDicomFile
         DCM_FILENAME => undef,
         (   parseArgs \@_, @{$Image::DCMTK::cmdLines{openDicomFile}}),
     );
-    my $dump = io("dcm2xml $h{DCM_FILENAME}")->pipe;
-    my $dicomHash = XML::Simple::XMLin($dump, SuppressEmpty => undef);
+    open my $dump_fh, '-|', "dcm2xml $h{DCM_FILENAME}"
+        or die "Cannot process 'dcm2xml $h{DCM_FILENAME}'.";
+    my $dicomHash = XML::Simple::XMLin($dump_fh, SuppressEmpty => undef);
     return $dicomHash;
 }
 
